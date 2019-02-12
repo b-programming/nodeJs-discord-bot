@@ -1,0 +1,9 @@
+{
+  "global": {
+    "eval": true,
+    "pullanddeploy": true,
+    "setUsername": true,
+    "cmdauth": true
+  },
+  "users": {}
+}
