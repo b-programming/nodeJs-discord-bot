@@ -2,28 +2,15 @@
 A chat bot for discord app based off <a href="https://github.com/hydrabolt/discord.js/">discord.js</a>
 
 # Features:
-- !gif query => returns a gif connected to search query. Example = !gif dogs
-- !image query => returns an image from Google Images (careful, no adult filter) Example: !image dogs
-- !youtube query=> returns a youtube link. Example: !youtube Fortnite
-- !wiki query=> returns the summary of the first search result on Wikipedia. Example: Linus Torvalds
-- !wolfram query => queries Wolfram Alpha for results
-- !meme memetype "text1" "text2" => returns a meme image. notice the quotes around text, they are vitally important
-- !say text => echos text
-- !alias => create custom shorthand commands in channel!
-- !join-server => bot will join the requested server
-- !talk => talk with the bot!
-- @botname => responds when @mentioned
-- channel management!
-
-And much more! Try !help to get a full list of available commands
+-google image search
+-youtube streaming
+-wikipedija
+-meme engine...
+!help for full features
 
 # Installation
 
-This bot is written to run on top of node.js. Please see https://nodejs.org/en/download/
-
-Once you have node installed running `npm install` from the bot directory should install all the needed packages. If this command prints errors the bot won't work!
-
-
+git clone and npm install
 
 ## Windows Users
 Please note that you must have a working C compiler and Python in your path for
@@ -36,11 +23,9 @@ Please note that you must have a working C compiler and Python in your path for
 [Tuck 64 was kind enough to make a video walkthrough of the setup process](https://www.youtube.com/watch?v=H-82S2jFOII)
 
 ## RSS
-You can create an rss.json file adding rss feeds as commands. See rss.json.example for details.
+You can create an rss.json file for feeds
 
 ## Special instructions for setting up google search and youtube APIs:
-
-(thanks @SchwererKonigstiger)
 
 1) Create a Custom Search at: https://cse.google.com/cse/create/new
 
@@ -61,19 +46,5 @@ Make sure you also have your google server API key, which goes in the "youtube_a
 # Running
 Before first run you will need to create an `auth.json` file. A bot token or the email and password for a discord account are required. The other credentials are not required for the bot to run, but highly recommended as commands that depend on them will malfunction. See `auth.json.example`.
 
-To start the bot just run
-`node discord_bot.js`.
-
-# Updates
-If you update the bot, please run `npm update` before starting it again. If you have
-issues with this, you can try deleting your node_modules folder and then running
-`npm install` again. Please see [Installation](#Installation).
-
-# ToDo:
-Setup the bot up!
-
-# Help
-Please check GitHub issues page on this project. We get a lot of the same questions, its very likely yours has already been answered. And yes we need to roll those into an official FAQ.
-
-If you still need help join us on [discord.](https://discord.gg/m29GJBN)
+If you still need help join the legacy team on [discord.](https://discord.gg/m29GJBN)
 # nodeJs-discord-bot
